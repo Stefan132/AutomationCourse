@@ -1,0 +1,74 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>HTML_CSS_JS</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <form>
+            <table>
+                <tbody>
+                <tr>
+                    <td>
+                        <label for="username" class="labels" id="l1">Username</label>
+                    </td>
+                    <td>
+                        <input type="text" id="username" onchange="readInputText();"/> <br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="Pass" class="labels">Password</label>
+                    </td>
+                    <td>
+                        <input type="password" id="pass" /> <br/>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label for="passrepeat" class="labels">Repeat password</label></label>
+                    </td>
+                    <td>
+                        <input type="password" id="passrepeat">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="labels">Address</label>
+                    </td>
+                    <td>
+                        <textarea id="txtarea1"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <label class="labels">Email</label>
+                    </td>
+                    <td>
+                        <input type="email"></label>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <input type="submit" id="submitbutton">
+
+            <input type="reset" id="resetbutton">
+
+            <button type="button" value="button1" id="b1" onclick="clickMe();">My Button</button>
+
+        </form>
+        <img src="poza.jpeg" id="img1" clas="images">
+        <hr>
+        <a href="https://www.wikipedia.org/" id="link1">Click here for wikipedia</a>
+        <br/>
+        <a href="https://github.com/Stefan132" target="_blank" id="link2">Click here for Github</a>
+        <br/>
+
+    <div id="result">
+
+    </div>
+
+    </body>
+    </html>
