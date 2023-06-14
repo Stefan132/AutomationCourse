@@ -70,5 +70,34 @@ public class Course02 {
         secondNumber = 3;
         boolean xorOperator = number >= 0 ^ secondNumber >= 0;
         System.out.println("XOR Operator " + xorOperator);
+
+        System.out.println("First sequence");
+        System.out.println("Second sequence");
+        System.out.println("Third sequence");
+
+        number = 0;
+        boolean isNumberPositive = number > 0;
+        if (number > 0) {
+            System.out.println("Numarul este strict mai mare decat 0");
+        }else if (number < 0){
+            System.out.println("Numarul este negativ");
+        }else {
+            System.out.println("Numarul este 0");
+        }
+
+
+        int x = 0;
+
+        while (x < 25 ){
+            System.out.println(++x);
+        }
+
+        int x1 = 0;
+
+        do{
+            System.out.println(x1);
+            ++x1;
+        } while (x1 < 25);
+        System.out.println();
     }
 }
