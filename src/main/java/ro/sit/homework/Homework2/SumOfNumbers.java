@@ -1,4 +1,4 @@
-package ro.sit.homework;
+package ro.sit.homework.Homework2;
 
 public class SumOfNumbers {
     public static void main(String[] args) {
