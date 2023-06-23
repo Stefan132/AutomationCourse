@@ -18,6 +18,7 @@ function validateForm(event) {
   checkFieldById('password', 'passwordError');
   checkFieldById('confirmPassword', 'confirmPasswordError');
 
+
   // Check if passwords match
   checkPasswordsMatch('password', 'confirmPassword', 'confirmPasswordError');
 }
