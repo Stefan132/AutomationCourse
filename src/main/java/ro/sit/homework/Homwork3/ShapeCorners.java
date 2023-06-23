@@ -15,7 +15,6 @@ public class ShapeCorners {
     }
 
     public static void main(String[] args) {
-        // Example usage
         drawShapeCorners(10, 4);
     }
 }

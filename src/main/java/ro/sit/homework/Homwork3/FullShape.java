@@ -11,7 +11,6 @@ public class FullShape {
     }
 
     public static void main(String[] args) {
-        // Example usage
         drawFullShape(10, 4);
     }
 }
